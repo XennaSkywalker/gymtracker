@@ -288,7 +288,7 @@ span {
 }
 
 .profile-section {
-  width: 45.5%;
+  width: 45%;
   display: flex;
   align-items: center;
   background-color: #18181b;
@@ -313,7 +313,7 @@ span {
 }
 
 .streak-section {
-  width: 45.5%;
+  width: 45%;
   background-color: #18181b;
   padding: 20px;
   border-radius: 12px;
