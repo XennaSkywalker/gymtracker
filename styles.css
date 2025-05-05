@@ -108,19 +108,25 @@ div#greeting {
 .stats_container {
   display: flex;
   justify-content: center;
-  gap: 200px;
-  padding: 30px;
+  gap: 80px;
+  margin: 30px;
   flex-wrap: wrap;
   font-size: 25px;
   margin-left: 150px;
   margin-right: 150px;
-  background-color: #18181b;
-  border-radius: 30px;
+  /* background-color: #18181b; */
   color: #ffffff;
 
   .stats-number {
     color: #8b8b8b;
     font-size: 22px;
+    padding-top: 15px;
+  }
+
+  .stat {
+    background-color: #18181b;
+    border-radius: 30px;
+    padding: 30px 50px;
   }
 }
 .stat_1 {
@@ -277,6 +283,11 @@ span {
   color: #8b8b8b;
 }
 
+span#purple {
+  padding-top: 20px;
+  color: #7643fb;
+  font-weight: bold;
+}
 .main-container {
   display: flex;
   gap: 30px;
@@ -285,10 +296,11 @@ span {
   color: #7643fb;
   flex-wrap: wrap;
   margin-bottom: 20px;
+  /* align-items: center; */
 }
 
 .profile-section {
-  width: 45%;
+  width: 45.5%;
   display: flex;
   align-items: center;
   background-color: #18181b;
@@ -313,10 +325,11 @@ span {
 }
 
 .streak-section {
-  width: 45%;
+  width: 45.2%;
   background-color: #18181b;
   padding: 20px;
   border-radius: 12px;
+  padding-top: 30px;
 }
 
 .streak-section h2 {
