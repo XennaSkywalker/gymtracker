@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1   q.0" />
+    <title>gymbros.inc</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .workouts_container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 80px;
+        margin-bottom: 20px;
+      }
+
+      .workout {
+        background-color: #18181b;
+        color: #7643fb;
+        border-radius: 20px;
+        overflow: hidden;
+        width: 300px;
+      }
+
+      .workout img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      div#Workouts {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .workout_text {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 20px;
+        color: #8b8b8b;
+      }
+      .workout_text .heading-purple {
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+
+      .workout_text img {
+        height: 20px;
+        transform: translate(0%, 3%);
+        width: auto;
+        padding-right: 8px;
+      }
+    </style>
+  </head>
+
+  <body bgcolor="blue">
+    <nav>
+      <div class="float-container">
+        <div class="float-child" id="gymbros">
+          <a href="index.html"><b>gymbros.inc</b></a>
+        </div>
+        <div class="nav-hyperlinks">
+          <div class="float-child" id="workouts">
+            <a href="index.html#Gym-Workouts">Workouts</a>
+          </div>
+          <div class="float-child" id="forum">
+            <a href="profile.html#analytics">Analytics</a>
+          </div>
+          <div class="float-child" id="community">
+            <a href="contact-us.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="nav-icons">
+          <div class="float-child" id="profile-pic">
+            <a href="profile.html"><img src="profile.png" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="greeting">Welcome, Xenna Skywalker</div>
+
+    <div class="subheading">
+      Let's Check Your Progress On This
+      <div class="heading-purple">Week's Goals</div>
+    </div>
+
+    <div class="stats_container">
+      <div id="stat">
+        <center><b>Calories</b></center>
+        <div class="stat_1"></div>
+        <center><div class="stats-number">2345 cal</div></center>
+      </div>
+      <div id="stat">
+        <center><b>Steps</b></center>
+        <div class="stat_2"></div>
+        <center><div class="stats-number">39261 steps</div></center>
+      </div>
+      <div id="stat">
+        <center><b>Weight Lost</b></center>
+        <div class="stat_3"></div>
+        <center><div class="stats-number">2.63 kg</div></center>
+      </div>
+    </div>
+
+    <div class="subheading">
+      <div id="Gym-Workouts">
+        <a id="Gym-Workouts">Let's check out your current</a>
+      </div>
+      <div class="heading-purple">Gym Workouts</div>
+    </div>
+    <div class="workouts_container">
+      <div class="workout">
+        <img src="Workout_1.jpeg" />
+        <div class="workout_text">
+          <div class="heading-purple">
+            <img src="cardio-icon.png" />
+            <a href="cardio.html">Cardio</a>
+          </div>
+          Rhythmic activities that increase heart rate, burn calories and fat.
+        </div>
+      </div>
+      <div class="workout">
+        <img src="Workout_2.jpg" />
+        <div class="workout_text">
+          <div class="heading-purple">
+            <img src="upper-icon.png" />
+            <a href="upper.html">Upper</a>
+          </div>
+          Target chest, back, shoulders, and arms through strength training.
+        </div>
+      </div>
+      <div class="workout">
+        <img src="Workout_3.jpg" />
+        <div class="workout_text">
+          <div class="heading-purple">
+            <img src="lower-icon.png" />
+            <a href="lower.html">Lower</a>
+          </div>
+          Target glutes, quads, hamstrings, calves, and thighs through
+          exercises.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

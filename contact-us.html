@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="float-container">
+        <div class="float-child" id="gymbros">
+          <a href="index.html"><b>gymbros.inc</b></a>
+        </div>
+        <div class="nav-hyperlinks">
+          <div class="float-child" id="workouts">
+            <a href="index.html#Gym-Workouts">Workouts</a>
+          </div>
+          <div class="float-child" id="forum">
+            <a href="profile.html#analytics">Analytics</a>
+          </div>
+          <div class="float-child" id="community">
+            <a href="contact-us.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="nav-icons">
+          <div class="float-child" id="profile-pic">
+            <a href="profile.html"><img src="profile.png" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="greeting">Contact Us</div>
+
+    <div class="contact-container">
+      <form class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="comments">Comments</label>
+          <textarea id="comments" name="comments" rows="5"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
